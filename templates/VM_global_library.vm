@@ -1,0 +1,16 @@
+velocimacro.permissions.allow.inline = true
+velocimacro.permissions.allow.inline.to.replace.global = false
+velocimacro.permissions.allow.inline.local.scope = false
+velocimacro.context.localscope = false
+velocimacro.library.autoreload = false
+velocimacro.arguments.strict = false
+velocimacro.body.reference = false
+macro.provide.scope.control = false
+<somebodymacro>.provide.scope.control = false
+runtime.references.strict = false
+runtime.references.strict.escape = false
+runtime.interpolate.string.literals = true
+runtime.strict.math = false
+parser.pool.class = org.apache.velocity.runtime.ParserPoolImpl
+parser.pool.size = 20
+runtime.introspector.uberspect = org.apache.velocity.util.introspection.UberspectImpl
