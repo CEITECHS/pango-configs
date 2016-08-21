@@ -1,0 +1,9 @@
+<html>
+<body>
+<h3>Hi ${model.userName}, welcome to Pango the largest Renting Platform, where Renting is made Easy!</h3>
+
+<div>
+    Your email address is <a href="mailto:${model.emailAddress}">${model.emailAddress}</a>.
+</div>
+</body>
+</html>
