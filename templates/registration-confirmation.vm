@@ -3,7 +3,10 @@
 <h3>Hi ${model.firstName} ${model.lastName} , welcome to Pango the largest Renting Platform, where Renting is made Easy!</h3>
 
 <div>
-    Your email address is <a href="mailto:${model.emailAddress}">${model.emailAddress}</a>.
+    Your email address is <a href="mailto:${model.emailAddress}">${model.emailAddress}</a>. <br/>
+    Please follow this  <a href ="${model.verificationPathParam}">link</a> to verify your account or copy paste the following on any web browser
+    <span>${model.verificationPathParam}</span>
 </div>
+
 </body>
 </html>
