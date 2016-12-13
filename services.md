@@ -5,7 +5,7 @@ baseUrl: /apis/v1
 ```
 Sample Request/response
 `POST http://34.194.223.159/apis/v1/authenticate`
-request headers Content-Type →application/json and Accept →application/json
+request headers `Content-Type →application/json` and `Accept →application/json`
 ---RequestBody
 ```
 {
